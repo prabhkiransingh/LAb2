@@ -57,7 +57,7 @@ export function EmployeeList() {
           ))}
         </Select>
       </div>
-      <span>{data.reduce((acc, dept) => acc + dept.employees.length, 0)} employees</span>
+      
       <div>
         {data.map((dept) => (
           <section key={dept.department}>
