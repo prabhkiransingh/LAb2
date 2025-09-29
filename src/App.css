@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;   
+  padding: 0.1em 1em;
+  
+}
+nav a {
+  color: #6a0dad;     
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 0.95em;  
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  text-align: center;
+  margin: 3em 0 2em 0; 
+}
+.logo img {
+  height: 120px;
+}
+
+
+header {
+  text-align: left;
+  margin-bottom: 1.2em;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+header span {
+  font-size: 1em;
+  display: block;
+  margin-top: 0.3em;
+  color: #555;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 1em;
+  background: #fff;
+  
+}
+
+
+.department {
+  border: 1px solid #c1d9c1;            
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  border-radius: 7px;
+  background-color: #ffffff;
+  width: 1400px; 
+}
+
+
+.department h4 {
+  margin-bottom: 0.3em;
+  color: #003366;                        
+  font-size: 1.15em;                     
+  font-weight: bold;
+}
+
+
+.department p {
+  margin: 0.2em 0;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #eee;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 2em;
+}
+

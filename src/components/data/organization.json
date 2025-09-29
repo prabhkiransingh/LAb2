@@ -1,0 +1,52 @@
+[
+  {
+    "role": "CEO / Chair of Board",
+    "name": "Zoë Robins",
+    "description": "A chief executive officer, the highest-ranking person in a company or other institution, ultimately responsible for making managerial decisions."
+  },
+  {
+    "role": "COO / VP Operations",
+    "name": "Madeleine Madden",
+    "description": "The chief operating officer (COO) is responsible for executing and implementing the operational directives set by the CEO and the board of directors."
+  },
+  {
+    "role": "CFO / VP Administration",
+    "name": "Josha Sadowski",
+    "description": "A chief financial officer, a senior executive with responsibility for the financial affairs of a corporation or other institution. The vice president of administration position is responsible for directing all of the administrative functions of the corporation in accordance with industry standards, regulatory agencies, and company objectives and policies."
+  },
+  {
+    "role": "CIO",
+    "name": "Kate Fleetwood",
+    "description": "Chief Information Officer (CIO), also called Chief Digital Information Officer (CDIO) or IT Director. This role is the most senior executive in a bank responsible for information technology and computer systems that support organizational goals."
+  },
+  {
+    "role": "VP Client Services",
+    "name": "Priyanka Bose",
+    "description": "Responsible for the Consumer Banking division performing roles including lending, investing, risk management, marketing, and technology. Also responsible for the Commercial Banking division with a suite of solutions to help retail and commercial customers meet their financial goals."
+  },
+  {
+    "role": "VP Marketing",
+    "name": "Gil Cardinal",
+    "description": "Responsible for the overall strategic marketing plans for the organization (or specific business lines/brands) to attract potential customers and retain existing ones."
+  },
+  {
+    "role": "Director Human Resources",
+    "name": "Jesse Ed Azure",
+    "description": "Responsible for organizational development, recruitment and staffing, employment law, performance management, employee relations, and compensation and benefits."
+  },
+  {
+    "role": "Director Financial and Audit Services",
+    "name": "Selina Hanusa",
+    "description": "Sometimes called a compliance manager, this role ensures the company conducts its business in full compliance with applicable laws, regulations, professional standards, and accepted business practices."
+  },
+  {
+    "role": "Director Legal Services / General Counsel",
+    "name": "Randy Bradshaw",
+    "description": "The senior executive managing legal affairs for the company."
+  },
+  {
+    "role": "Director Information Technology",
+    "name": "Graham Greene",
+    "description": "Manages the IT infrastructure, operations, and services, enabling the organization to access and make effective use of data and digital services."
+  }
+]
