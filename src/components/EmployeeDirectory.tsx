@@ -44,18 +44,14 @@ export function EmployeeList() {
   }, []);
 
   return (
-    <main className="p-16">
-      <h2 className="mb-4 text-xl font-bold">Employee Directory</h2>
-      <div className="flex justify-between gap-6 mb-4">
+    <main>
+      <h2>Employee Directory</h2>
+      <div>
         <Input
-          className="w-full"
           placeholder="Search by name or department..."
           onChange={(e) => onSearchUpdate(e.target.value)}
         />
-        <Select
-          className="w-40"
-          onChange={(e) => onFilterChange(e.target.value)}
-        >
+        <Select onChange={(e) => onFilterChange(e.target.value)}>
           {filterOptions.map((opt) => (
             <option key={opt}>{opt}</option>
           ))}
@@ -64,9 +60,9 @@ export function EmployeeList() {
       <span>{data.reduce((acc, dept) => acc + dept.employees.length, 0)} employees</span>
       <div>
         {data.map((dept) => (
-          <section key={dept.department} className="department mt-4">
-            <h4 className="font-semibold">{dept.department}</h4>
-            <ul className="list-disc pl-6">
+          <section key={dept.department}>
+            <h4>{dept.department}</h4>
+            <ul>
               {dept.employees.map((name, idx) => (
                 <li key={idx}>{name}</li>
               ))}
